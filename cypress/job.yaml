@@ -10,6 +10,6 @@ spec:
     spec:
       containers:
       - name: sleep
-        image: cypress/browsers:chrome69
+        image: busybox
       restartPolicy: Never
   backoffLimit: 0
