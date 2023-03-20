@@ -1,1 +1,0 @@
-describe("TA-Dummy Parent TAId", () => {  it("TA-TAId1", () => {    cy.visit("https://www.google.com/");    cy.get("[name='q']").clear().type("Sachin Tendulkar").type("{enter}");  });  it("TA-TAId2", () => {    cy.visit("https://www.google.com/");    cy.get("[name='qa']").clear().type("Sachin Tendulkar").type("{enter}");  });});
