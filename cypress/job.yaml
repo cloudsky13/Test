@@ -10,7 +10,6 @@ spec:
     spec:
       containers:
       - name: sleep
-        image: alpine:latest
-        command: ["sleep", "10"]
+        image: skyhype/print:cypress
       restartPolicy: Never
   backoffLimit: 0
