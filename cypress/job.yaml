@@ -11,6 +11,6 @@ spec:
       containers:
       - name: sleep
         image: busybox
-        command: ["k6", "run"]
+   #     command: ["k6", "run"]
       restartPolicy: Never
   backoffLimit: 0
