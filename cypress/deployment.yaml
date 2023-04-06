@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - image: ubuntu
-        command: ["exit 0"]
+        command: ["/bin/bash","-c","exit 0"]
         name: guestbook-ui
         ports:
         - containerPort: 80
