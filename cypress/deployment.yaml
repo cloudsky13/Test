@@ -17,10 +17,3 @@ spec:
       - image: ubuntu
         command: ["/bin/bash","-c","sleep 100000"]
         name: guestbook-ui
-      startupProbe:
-        exec:
-          command:
-            - sleep
-            - 5
-        failureThreshold: 5
-        periodSeconds: 10
