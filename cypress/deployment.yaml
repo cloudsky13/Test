@@ -17,8 +17,6 @@ spec:
       - image: ubuntu
         command: ["/bin/bash","-c","exit 0"]
         name: guestbook-ui
-        ports:
-        - containerPort: 80
       startupProbe:
         exec:
           command:
