@@ -19,3 +19,10 @@ spec:
         name: guestbook-ui
         ports:
         - containerPort: 80
+      startupProbe:
+        exec:
+          command:
+            - sleep
+            - 5
+        failureThreshold: 5
+        periodSeconds: 10
