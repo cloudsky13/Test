@@ -14,7 +14,8 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: alpine
+      - image: ubuntu
+        command: ["exit 0"]
         name: guestbook-ui
         ports:
         - containerPort: 80
