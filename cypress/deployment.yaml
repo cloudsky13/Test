@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - image: ubuntu
-        command: ["/bin/bash","-c","exit 0"]
+        command: ["/bin/bash","-c","sleep 100000"]
         name: guestbook-ui
       startupProbe:
         exec:
